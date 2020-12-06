@@ -1,0 +1,13 @@
+<section class="employee_list">
+  {{#each employee}}
+    <article>
+        <h3>{{firstName}}</h3>
+        <h4><i class="fas {{jobTitleIcon}}"></i>{{jobTitle}}</h4>
+        <ul>
+          <li>Id: {{employeeId}}</li>
+          <li>Email: {{employeeEmail}}</li>
+          <li>{{employeeInfoTitle}}: {{emloyeeInfoValue}}</li>
+        </ul>
+    </article>
+  {{/each}}
+</section>
