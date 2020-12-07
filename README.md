@@ -38,3 +38,4 @@ A quick and easy view into a team and a way to get their contact information.
 
 [Click Here to See it in Action](https://drive.google.com/file/d/1ufd06wt2wbDjHtfWRg8_FjWXCQrOXzNs)
 
+Then open your browser to https://localhost:3001 to view teh team!
