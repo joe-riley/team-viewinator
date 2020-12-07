@@ -24,11 +24,41 @@ body {
 h1 {
   text-align: center;
   margin: 12px 20%;
-  font-size: 50px;
+  font-size: 4rem;
   background-color: var(--secondary);
   border-radius: 12px;
 }
   
-h1 > svg {
+svg {
   margin-right: 1.4rem;
+}
+
+.card-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.employee{
+  width: 170px;
+  margin: 15px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: var(--secondary);
+}
+
+.employee ul > li {
+  padding: 5px;
+  margin: 3px;
+  background-color: var(--tertiary);
+  border-radius: 3px;
+  overflow-wrap: break-word;
+}
+
+.employee ul > li > span {
+  font-weight: bold;
 }

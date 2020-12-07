@@ -3,12 +3,13 @@ const Employee = require('./Employee');
 class Manager extends Employee {
     constructor(id, firstName, lastName, email, officeNumber) {
         super(id, firstName, lastName, email);
-        this.officeNumber = officeNumber;
+        this.additionalInfoLabel = 'Office Number';
+        this.additionalInfoValue = officeNumber;
         this.roll = 'Manager';
     }
 
-    getOfficeNumber() {
-        return this.officeNumber;
+    getAddtionalInfo() {
+        return this.additionalInfo;
     }
 
 }

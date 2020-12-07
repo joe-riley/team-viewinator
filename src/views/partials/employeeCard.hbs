@@ -1,9 +1,10 @@
-<article>
-    <h3>{{firstName}} {{lastName}}</h3>
-    <h4><i class="fas {{jobTitleIcon}}"></i>{{roll}}</h4>
+
+<article class="card employee">
+    <h3 class="title is-3">{{firstName}} {{lastName}}</h3>
+    <h4 class="title is-4">{{roll}}</h4>
     <ul>
-      <li>Id: {{id}}</li>
-      <li>Email: {{email}}</li>
-      {{!-- <li>{{}} {{}}</li> --}}
+      <li><span>Id: </span>{{id}}</li>
+      <li><span>Email: </span><a href="mailto:{{email}}">{{email}}</a></li>
+      <li><span>{{additionalInfoLabel}}: </span>{{{additionalInfoValue}}}</li>
     </ul>
 </article>

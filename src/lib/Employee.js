@@ -5,6 +5,8 @@ class Employee {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.additionalInfoLabel = null;
+        this.additionalInfoValue = '';
         this.roll = 'Employee';
     }
 
@@ -22,6 +24,10 @@ class Employee {
 
     getRoll() {
         return this.roll;
+    }
+
+    getAddtionalInfo() {
+        return `${this.addtionalInfoLabel}: ${this.additionalInfoValue}`;
     }
 
 }
