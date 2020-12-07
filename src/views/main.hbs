@@ -1,0 +1,12 @@
+<navbar>
+    <div class="container is-fullhd">
+        <h1><i class="fas fa-user-friends"></i>My Team</h1>
+    </div>
+</navbar>
+
+<section class="employee_list">
+  {{#each employees}}
+    {{> employeeCard}}
+  {{/each}}
+</section>
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
